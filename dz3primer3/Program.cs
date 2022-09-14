@@ -5,14 +5,16 @@
 //5 -> 1, 8, 27, 64, 125
 Console.Write("Введите число: ");
 int N = int.Parse(Console.ReadLine());
-int i = 1;
+//int i = 1;
 Console.Write($"{N} -> ");
-while(i < N)
+//while(i < N)
+//{ 
+ //   Console.Write($"{Math.Pow(i, 3)}, ");
+ //   i = i + 1;
+//}
+for(int i = 1; i <= N; i++)
 { 
     Console.Write($"{Math.Pow(i, 3)}, ");
-    i = i + 1;
 }
-if(i == N)
-{
-    Console.Write($"{Math.Pow(i, 3)}");
-}
+//    if (int i == N);
+//    Console.Write($"{Math.Pow(N, 3)}");
