@@ -11,7 +11,9 @@ Console.Write("Введите размер массива: ");
 int r = int.Parse(Console.ReadLine());
 
 int[] Array = Arr(r, a, b);
+Console.Write("[");
 Console.Write(String.Join(",",Array));
+Console.Write("]");
 int Sum = Res(Array);
 Console.Write($" -> {Sum} сумма элементов, стоящих на нечетных позициях");
 
