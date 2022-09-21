@@ -6,6 +6,7 @@
 Console.Clear();
 Console.Write("Введите через пробел значеня b1,k1,b2,k2: ");
 double[] input = Array.ConvertAll(Console.ReadLine().Split(), double.Parse);
+// double.Parse вроде норм работает. это хорошо 
 
 //Console.Write(String.Join(", ", coord)); так не получается 
 //наименования значений распечатать
